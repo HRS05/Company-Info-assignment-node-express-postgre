@@ -21,7 +21,6 @@ server.listen(portNumber, function () {
             app.use(bodyParser.json());
             app.use("/query",queryResolver);
             app.use("/adddetails", addData);
-            app.use("/query",queryResolver);
 
 
 
